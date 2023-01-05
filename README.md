@@ -10,4 +10,6 @@ https://numpy.org/install/
 N by N matrix requires N*N*N*2 flops to multiply
 
 
-g++ 
+g++ Matmul.cpp -O2 && ./a.out
+
+python3 matmul.py
